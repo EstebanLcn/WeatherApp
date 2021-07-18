@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="weather.css" rel="stylesheet">
+    <title>Weather app</title>
+</head>
+<body>
+    <div class="container">
+  
+        <div class="row justify-content-center">
+          
+          <div class="col-md-8">
+            <!-- Titre -->
+            <h1 class="text-center mt-5">Météo</h1>
+            
+            <!-- Ville / Temperature -->
+            <div class="text-center">
+              <span id="city">Paris</span>
+              
+              <div id="temp">
+                <span id="temp_label">
+                  xx.x
+                </span> °C
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="row justify-content-center">  
+          <div class="col-md-8 text-center">
+            <!-- Changer de ville -->
+            <div id="change" class="mt-2 text-center p-3 text-white font-weight-bold text-uppercase d-inline-block">
+              New city
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    <script src="weather.js"></script>
+</body>
+</html>
